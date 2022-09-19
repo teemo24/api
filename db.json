@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "hatem",
+      "password": "123456",
+      "accessToken": "1K2sdqs4dsD56fdsOBS18971dsq465"
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "macadress": "10:a2:a2:a8:01:a8",
+      "name": "Light 1",
+      "spaceId": "1",
+      "categoryId": "1",
+      "status": true,
+      "data": []
+    }
+  ],
+  "spaces": [
+    {
+      "id": 1,
+      "spaceName": "Room 1",
+      "iconName": "test",
+      "iconType": "test"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "spaceName": "Ligthing",
+      "iconName": "test",
+      "iconType": "test"
+    }
+  ],
+  "access": [
+    {
+      "userId": "1",
+      "spaces": [
+        "1"
+      ],
+      "categories": [
+        "1"
+      ],
+      "devices": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ]
+}
